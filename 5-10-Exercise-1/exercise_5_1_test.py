@@ -5,7 +5,7 @@ def test_main(self):
   function_name_to_check = 'main'
 
   # Check if the function is defined
-  self.assertTrue(function_name_to_check in globals(), msg="main function not defined")
+  assert function_name_to_check in globals(), "main function not defined"
 
   @timeout_decorator.timeout(1.001)
   def test(test_values, expected_output):
@@ -33,7 +33,7 @@ def test_main(self):
 
     output = "".join(output)
     expected_output = "".join(expected_output)
-    self.assertEquals(output, expected_output)
+    assert output, expected_output
 
   # run first test
   test(['10', '36'], [
