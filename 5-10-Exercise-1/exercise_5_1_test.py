@@ -1,7 +1,7 @@
 from exercise_5_1 import *
 import timeout_decorator
 
-def test_main():
+def test_main(mocker):
   # Function name you want to check
   function_name_to_check = 'main'
 
