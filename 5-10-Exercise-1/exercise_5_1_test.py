@@ -1,6 +1,6 @@
 import exercise_5_1
 
-def test_main(self):
+def test_main():
   # Function name you want to check
   function_name_to_check = 'main'
 
