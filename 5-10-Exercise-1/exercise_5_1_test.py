@@ -23,8 +23,8 @@ def test_main():
           temp_str = " ".join([str(x) for x in args])
       output.append(f"{temp_str}{end}")
 
-    with patch('builtins.input', side_effect=mock_input_func) as mock_input:
-      with patch('builtins.print', side_effect=mock_print_func) as mock_print:
+    with mocker.patch('builtins.input', side_effect=mock_input_func), \
+     mocker.patch('builtins.print', side_effect=mock_print_func):
         func_success = True
         try:
           main()                                  # Call unchanged function.
