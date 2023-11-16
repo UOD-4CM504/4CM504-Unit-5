@@ -1,4 +1,4 @@
-import 5_10_exercise_1
+import exercise_5_1
 
 def test_main(self):
   # Function name you want to check
