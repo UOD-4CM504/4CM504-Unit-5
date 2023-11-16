@@ -1,4 +1,5 @@
 from exercise_5_1 import *
+import timeout_decorator
 
 def test_main():
   # Function name you want to check
