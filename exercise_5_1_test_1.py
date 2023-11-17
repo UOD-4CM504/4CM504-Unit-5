@@ -1,6 +1,10 @@
 from exercise_5_1 import *
 import timeout_decorator
 
+def test_calc_retail_price():
+  assert calc_retail_price(5,40) == 7.0
+  assert round(calc_retail_price(25.3,75),3) == 44.275
+
 def test_main(mocker):
   # Function name you want to check
   function_name_to_check = 'main'
