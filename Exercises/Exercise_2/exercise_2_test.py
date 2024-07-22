@@ -1,4 +1,3 @@
-from exercise_2 import convert_temp
 
 def test_temperature_conversion():
     # Celsius to Fahrenheit cases
