@@ -1,4 +1,4 @@
-
+from exercise_2 import convert_temp
 def test_temperature_conversion():
     # Celsius to Fahrenheit cases
     c_to_f_cases = [4, 72, 53, 21, -280, -180]
