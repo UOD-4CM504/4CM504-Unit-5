@@ -6,6 +6,7 @@ def main():
   markup = input("Please enter a markup percentage:\n")
   retail = calc_retail_price(float(wholesale), float(markup))
   print(f"The retail price is £{retail:.2f}.")
+  
 
 # This is needed for the tests. This is the now the first bit of code Python will run.
 # Please ask if you are curious, but it is enough to understand that this calls the main() function and runs whatever code you have in there.
