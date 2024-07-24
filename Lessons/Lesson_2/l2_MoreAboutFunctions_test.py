@@ -1,4 +1,5 @@
-from Lessons.l2_MoreAboutFunctions import *
+
+from Lessons.Lesson_2.l2_MoreAboutFunctions import *
 
 
 def get_random_string(length):
